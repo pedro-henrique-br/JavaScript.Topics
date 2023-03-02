@@ -59,3 +59,11 @@ console.log(poke())
 
 
 
+// IIFE
+
+(function () {
+  const Poke = () => ({type: "physic", name: "gynger"})
+
+  console.log(poke)
+}())
+
